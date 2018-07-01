@@ -1,0 +1,27 @@
+#myFooter .footer-copyright{
+    margin-bottom: 5%;
+    margin-top:30%;
+    text-align: center;
+    color: #fff;
+    z-index:1;
+}
+
+#myFooter .fa:hover {
+  color:darkred;
+  background-color:white;
+  border-color:red;
+}
+
+@media all and (orientation: portrait), all and (max-width: 568px) {
+  #myFooter .footer-copyright{
+    margin-bottom: 5%;
+    margin-top:130%;
+    text-align: center;
+    color: #fff;
+    z-index:1;
+}
+
+article blockquote{
+  font-size:55px;
+}
+}

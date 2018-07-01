@@ -1,0 +1,346 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***********************reset css***********************/
+
+body {
+  background:url("images/fon.jpg") no-repeat fixed;
+  background-size:cover
+}
+
+.high-text {
+  font-family: 'Spirax', cursive;
+  background-color:darkred;
+  color:white;
+  text-align:center;
+  line-height:1.9;
+  height:140px;
+  font-size:70px;
+  width:100%;
+  font-weight:bold;
+}
+/******************************SLIDER******************************/
+.sl_ctr{
+position:relative;
+margin:3%;
+margin-left:2%;
+width:300px;
+height:500px;
+overflow:hidden;
+float:right;
+}
+.sldr{
+position:relative;
+width:10000px;
+height:550px;
+}
+.sldr img{
+float:left;
+width:300px;
+height:500px;
+}
+.prv_b, .nxt_b{
+position:absolute;
+top:235px;
+display:block;
+width:35px;
+height:35px;
+cursor:pointer;
+padding:3%;
+padding-bottom:2%;
+}
+.prv_b:hover, .nxt_b:hover{opacity:.6;}
+.prv_b{
+left:10px;
+background:url(images/prv.png) no-repeat;
+}
+.nxt_b{
+right:10px;
+background:url(images/nxt.png) no-repeat;*/
+}
+.nxt_b{
+    padding:0px;
+  }
+
+/******************************SLIDER******************************/
+/******************************ARTICLE******************************/
+
+article {
+  background:url("images/article.jpg");
+  background-size:cover;
+  font-family: 'Marck Script', cursive;
+  max-width:100%;
+  max-height:1200px;
+  float:left;
+  margin-top:5%;
+  margin-left:5%;
+  margin-right:5%;
+  font-size:25px;
+}
+
+article blockquote{
+  padding:3%;
+}
+
+article span{
+  color:white;
+}
+
+article .billy {
+  font-family: 'Fredericka the Great', cursive;
+  color:black;
+}
+
+.center_text {
+  text-align:center;
+  font-size:50px;
+  color:black;
+  font-weight:bold;
+}
+
+#button {
+  margin-bottom:3%;
+  display:inline-block;
+  padding:5px;
+}
+
+#button a{
+  color:black;
+  font-size:30px;
+  text-decoration:none;
+  background:url("images/fon2.jpg") no-repeat;
+}
+
+#button a:hover {
+  color:white;
+}
+
+/******************************ARTICLE******************************/
+/******************************FOOTER*******************************/
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 120px;
+}
+
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 5%;
+    margin-top:55%;
+    text-align: center;
+    color: #fff;
+    z-index:1;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: white;
+    font-size: 18px;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 1px;
+    line-height:2;
+}
+/******************************SOCIAL NETWORKS******************************/
+#myFooter .footer-social{
+    margin-top:5%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:darkred;
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: darkred;
+    color: white;
+    border-radius: 51%;
+    border:4px outset white;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 55px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa:hover {
+  color:darkred;
+  background-color:white;
+  border-color:red;
+}
+
+.shaman {
+  width:90%;
+  height:100%;
+  margin-left:8%;
+  z-index:30;
+}
+
+.bloggood-ru-div {
+  display: none;
+  width:1000px;
+  height:600px;
+}
+a.bloggood-ru-ssilka:focus+div {
+  display: block;
+}
+
+.right {
+  float:right;
+  color:black;
+  font-size:18px;
+  text-decoration:underline;
+  padding-bottom:3%;
+}
+/******************************FOOTER*******************************/
+
+/******************************MEDIA*******************************/
+@media all and (orientation: portrait), all and (max-width: 568px) {
+  body {
+    background-size:cover;
+  }
+  
+  .high-text{
+    height:180px;
+    font-size:75px;
+    line-height:2.5;
+    width:100%;
+  }
+  
+  article {
+    margin-top:10%;
+    font-size:35px;
+    max-height:100%;
+    width:100%;
+    max-height:100%;
+    margin:10% 0 0 0;
+  }
+  
+  .sl_ctr{
+    margin-top:3%;
+    width:400px;
+    height:700px;
+  }
+  
+  .sldr img{
+    float:left;
+    width:400px;
+    height:700px;
+  }
+  
+  #myFooter .fa {
+    font-size:60px;
+    width:100px;
+    height:100px;
+    line-height:1.52;
+    background-color:white;
+    color:darkred;
+    border:4px outset red;
+  }
+  
+  #myFooter .fa:hover {
+    border-color:white;
+    background-color:red;
+    color:white;
+  }
+  
+  #myFooter .footer-social{
+    margin-top:10%;
+    background-color: darkred;
+  }
+  
+  #myFooter .footer-copyright{
+    margin-top:1200px;
+    text-align: center;
+    color: #fff;
+}
+
+  .prv_b, .nxt_b{
+    top:320px;
+  }
+  .nxt_b{
+    padding:0px;
+  }
+  
+  .shaman {
+  width:100%;
+  height:100%;
+  margin-left:0;
+  z-index:30;
+}
+
+.bloggood-ru-div {
+  display: none;
+  width:920px;
+  height:600px;
+}
+
+.right {
+  float:right;
+  color:black;
+  font-size:40px;
+  text-decoration:underline;
+  padding-bottom:3%;
+}
+}
+
+
+
+
+
+
+
